@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Rellax.js - play</title>
+
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
@@ -27,6 +28,26 @@
         <!-- </section> -->
 
         <section class="hero2">
+            <div class="hero2__wrapper">
+                <div class="hero2__title rellax" data-rellax-speed="6">
+                    CUTE BIRDS
+                </div>
+                <div class="hero2__subtitle rellax" data-rellax-speed="4">
+                    How cute are they right? chirp! chirp!
+                </div>
+                <button class="hero2__button rellax" data-rellax-speed="2">
+                    Vote now
+                </button>
+            </div>
+
+            <div
+                class="hero2__image-wrapper rellax"
+                data-rellax-speed="3"
+                data-rellax-percentage="0.5"
+            >
+                <img class="hero__image" src="./images/bird.png" alt="birds" />
+            </div>
+
             <!-- WAVES -->
             <div class="custom-shape-divider-bottom-1644927568">
                 <svg
@@ -53,9 +74,41 @@
             </div>
             <!-- WAVES -->
         </section>
+        <!-- own PARALLAX -->
+        <section class="section hero3">
+            <ul class="hero3__ul">
+                <li
+                    class="scroll hero3__li"
+                    data-rate="-2"
+                    data-direction="vertical"
+                >
+                    par
+                </li>
+                <li class="scroll hero3__li">al</li>
+                <li
+                    class="scroll hero3__li"
+                    data-rate="2"
+                    data-direction="vertical"
+                >
+                    lax
+                </li>
+            </ul>
+            <span
+                class="scroll hero3__span"
+                data-rateY="2"
+                data-rateX="1"
+                data-direction="hotizontal"
+            ></span>
+        </section>
+        <!-- own PARALLAX -->
+        <section class="section hero4"></section>
+        <section class="section hero5">5</section>
+        <section class="section hero6">6</section>
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
         <script>
             let rellax = new Rellax(".rellax");
         </script>
+        <script src="app.js"></script>
     </body>
 </html>
