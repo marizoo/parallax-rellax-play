@@ -38,3 +38,32 @@ window.addEventListener("scroll", function (e) {
 // let scrolled = window.pageYOffset;
 // let rate = scrolled * 0.7;
 // target.style.transform = `translate3d(0px, ${rate}px, 0px)`;
+
+// THE HTML
+{
+    /* <section class="section hero3">
+<ul class="hero3__ul">
+    <li
+        class="scroll hero3__li"
+        data-rate="-2"
+        data-direction="vertical"
+    >
+        par
+    </li>
+    <li class="scroll hero3__li">al</li>
+    <li
+        class="scroll hero3__li"
+        data-rate="2"
+        data-direction="vertical"
+    >
+        lax
+    </li>
+</ul>
+<span
+    class="scroll hero3__span"
+    data-rateY="2"
+    data-rateX="1"
+    data-direction="hotizontal"
+></span>
+</section> */
+}

@@ -14,55 +14,6 @@
 
 
 
-/* HERO1 */
-/* .hero1{
-    width: 100vw;
-    height: 100vw;
-    background: #1d1d1d;
-} */
-
-/* .custom-shape-divider-bottom-1644927273 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.custom-shape-divider-bottom-1644927273 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 186px;
-    transform: rotateY(180deg);
-}
-
-.custom-shape-divider-bottom-1644927273 .shape-fill {
-    fill: #FFFFFF;
-}
-
-/* For tablet devices */
-/* @media (min-width: 768px) and (max-width: 1023px) {
-    .custom-shape-divider-bottom-1644927273 svg {
-        width: calc(100% + 1.3px);
-        height: 146px;
-    }
-} */ 
-
-/* For mobile devices */
-/* @media (max-width: 767px) {
-    .custom-shape-divider-bottom-1644927273 svg {
-        width: calc(100% + 1.3px);
-        height: 59px;
-    }
-} */
-/* HERO1 */
-.section{
-    width: 100vw;
-    height: 100vh;
-}
-
 /* HERO2 --------------------------------------------  */
 .hero2{
     width: 100vw;
@@ -74,9 +25,8 @@
 }
 
 .hero2__wrapper{
-    width: 60%;
+    flex: 1;
     padding: 6rem;
-    flex: 2;
 }
 
 .hero2__title{
@@ -97,7 +47,7 @@
 
 .hero2__image-wrapper{
     flex: 1;
-    width: 80%;
+    width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -105,6 +55,7 @@
 
 .hero2__image{
     width: 100%;
+    margin-right: 3rem;
 }
 
 
@@ -149,12 +100,13 @@
 /* HERO3 --------------------------------------------- */
 .hero3{
     height: 100vh;
-    font-size: 5em;
+    font-size: 20em;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 
 .hero3__ul{
+    height: 100%;
     list-style-type: none;
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -178,11 +130,34 @@
 /* HERO3 */
 
 
-/* HEROES ------------------------------- */
 
+/* HERO 4 ----------------------------------------*/
 .hero4{
-    background: #e9e9e9;
+    background: #111;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.hero4__title{
+    position: relative;
+    font-size: 12em;
+    color: rgba(255, 255, 255, 0.589);
+}
+
+.hero4__img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* HERO 4 */
+
 .hero5{background: #dfdede;}
 .hero6{
     background: #e9e9e9;

@@ -9,43 +9,23 @@
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <!-- <section class="hero1"> -->
-        <!-- WAVES -->
-        <!-- <div class="custom-shape-divider-bottom-1644927273">
-                <svg
-                    data-name="Layer 1"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 1200 120"
-                    preserveAspectRatio="none"
-                >
-                    <path
-                        d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
-                        class="shape-fill"
-                    ></path>
-                </svg>
-            </div> -->
-        <!-- WAVES -->
-        <!-- </section> -->
-
         <section class="hero2">
             <div class="hero2__wrapper">
-                <div class="hero2__title rellax" data-rellax-speed="6">
+                <div class="hero2__title layer" data-speed="-2">
                     CUTE BIRDS
                 </div>
-                <div class="hero2__subtitle rellax" data-rellax-speed="4">
-                    How cute are they right? chirp! chirp!
+                <div class="hero2__subtitle layer" data-speed="-3">
+                    They are so cute! right? chirp! chirp!
                 </div>
-                <button class="hero2__button rellax" data-rellax-speed="2">
-                    Vote now
+                <button class="hero2__button layer" data-speed="-4">
+                    CHIRP!
                 </button>
             </div>
 
             <div
-                class="hero2__image-wrapper rellax"
-                data-rellax-speed="3"
-                data-rellax-percentage="0.5"
+                class="hero2__image-wrapper "   
             >
-                <img class="hero__image" src="./images/bird.png" alt="birds" />
+                <img class="hero2__image layer" data-speed="5" src="./images/bird.png" alt="birds" />
             </div>
 
             <!-- WAVES -->
@@ -75,40 +55,61 @@
             <!-- WAVES -->
         </section>
         <!-- own PARALLAX -->
-        <section class="section hero3">
-            <ul class="hero3__ul">
-                <li
-                    class="scroll hero3__li"
-                    data-rate="-2"
-                    data-direction="vertical"
-                >
-                    par
-                </li>
-                <li class="scroll hero3__li">al</li>
-                <li
-                    class="scroll hero3__li"
-                    data-rate="2"
-                    data-direction="vertical"
-                >
-                    lax
-                </li>
-            </ul>
-            <span
-                class="scroll hero3__span"
-                data-rateY="2"
-                data-rateX="1"
-                data-direction="hotizontal"
-            ></span>
+            <section class="section hero3">
+                <ul class="hero3__ul">
+                    <li
+                        class="rellax" data-rellax-speed="1" hero3__li"
+                    >
+                        pa
+                    </li>
+                    <li
+                        class="rellax" data-rellax-speed="3" hero3__li"
+                    >
+                        ral
+                    </li>
+                    <li
+                        class="rellax" data-rellax-speed="5" hero3__li"
+                    >
+                        lax
+                    </li>
+                   
+                </ul>
+
+                <span class="layer" data-speed="-1" hero3__span"></span>
+            </section>
+        <!-- mouse hover PARALLAX -->
+        <section class="section hero4">
+            <img class="hero4__img layer" data-speed="-5" src="./images//hover/1.png" alt="triangle">
+            <img class="hero4__img layer" data-speed="5" src="./images//hover/2.png" alt="shape">
+            <img class="hero4__img layer" data-speed="2" src="./images//hover/3.png" alt="shape">
+            <img class="hero4__img layer" data-speed="6" src="./images//hover/4.png" alt="shape">
+            <img class="hero4__img layer" data-speed="8" src="./images//hover/5.png" alt="shape">
+            <img class="hero4__img layer" data-speed="-2" src="./images//hover/6.png" alt="shape">
+            <img class="hero4__img layer" data-speed="4" src="./images//hover/7.png" alt="shape">
+            <img class="hero4__img layer" data-speed="-9" src="./images//hover/8.png" alt="shape">
+            <img class="hero4__img layer" data-speed="6" src="./images//hover/9.png" alt="shape">
+            <img class="hero4__img layer" data-speed="-7" src="./images//hover/10.png" alt="shape">
+            <img class="hero4__img layer" data-speed="-5" src="./images//hover/11.png" alt="shape">
+            <img class="hero4__img layer" data-speed="5" src="./images//hover/12.png" alt="shape">
+            <h2 class="hero4__title layer" data-speed="2">WHOOP</h2>
+
         </section>
-        <!-- own PARALLAX -->
-        <section class="section hero4"></section>
+
+         <!-- mouse hover PARALLAX -->
+
         <section class="section hero5">5</section>
         <section class="section hero6">6</section>
+
+         
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
         <script>
             let rellax = new Rellax(".rellax");
         </script>
-        <script src="app.js"></script>
+
+        <!-- mouse hover parralax-->
+        <script src="mouseHover.js"></script>
+        <!-- <script src="app.js"></script> -->
+       
     </body>
 </html>
