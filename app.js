@@ -1,3 +1,5 @@
+// THIS DOESN'T WORK, BUT IT'S A VANILLA VERSION OF THE RELLAX.JS
+
 // window.addEventListener("scroll", function (ev) {
 //     const target = document.querySelectorAll(".scroll");
 

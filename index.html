@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
+        <!-- Using mouse hover parallax -->
         <section class="hero2">
             <div class="hero2__wrapper">
                 <div class="hero2__title layer" data-speed="-2">
@@ -28,7 +29,7 @@
                 <img class="hero2__image layer" data-speed="5" src="./images/bird.png" alt="birds" />
             </div>
 
-            <!-- WAVES -->
+            <!-- WAVES SVG-->
             <div class="custom-shape-divider-bottom-1644927568">
                 <svg
                     data-name="Layer 1"
@@ -52,9 +53,9 @@
                     ></path>
                 </svg>
             </div>
-            <!-- WAVES -->
+            <!-- WAVES SVG -->
         </section>
-        <!-- own PARALLAX -->
+        <!-- using rellax.js-->
             <section class="section hero3">
                 <ul class="hero3__ul">
                     <li
@@ -77,7 +78,7 @@
 
                 <span class="layer" data-speed="-1" hero3__span"></span>
             </section>
-        <!-- mouse hover PARALLAX -->
+        <!-- using mouse hover PARALLAX -->
         <section class="section hero4">
             <img class="hero4__img layer" data-speed="-5" src="./images//hover/1.png" alt="triangle">
             <img class="hero4__img layer" data-speed="5" src="./images//hover/2.png" alt="shape">
@@ -95,21 +96,15 @@
 
         </section>
 
-         <!-- mouse hover PARALLAX -->
-
-        <section class="section hero5">5</section>
-        <section class="section hero6">6</section>
-
-         
-
+      
+        <!-- for rellax.js -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
         <script>
             let rellax = new Rellax(".rellax");
         </script>
 
-        <!-- mouse hover parralax-->
+        <!-- for mouse hover parralax-->
         <script src="mouseHover.js"></script>
-        <!-- <script src="app.js"></script> -->
        
     </body>
 </html>
